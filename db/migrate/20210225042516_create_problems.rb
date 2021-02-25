@@ -5,7 +5,7 @@ class CreateProblems < ActiveRecord::Migration[6.0]
       t.string  :link
       t.integer  :status
       t.string  :site_name
-      t.reference :user_id
+      
       t.timestamps
     end
   end

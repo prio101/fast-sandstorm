@@ -64,6 +64,6 @@ class ProblemsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def problem_params
-      params.fetch(:problem, {}).permit(:name , :link, :status, :site_name, :user_id)
+      params.fetch(:problem, {}).permit(:name , :link, :status, :site_name)
     end
 end
