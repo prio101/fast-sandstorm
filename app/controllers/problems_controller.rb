@@ -23,6 +23,7 @@ class ProblemsController < ApplicationController
   # POST /problems or /problems.json
   def create
     @problem = Problem.new(problem_params)
+    @problem.user_id = current_user.id
 
     respond_to do |format|
       if @problem.save
@@ -38,6 +39,7 @@ class ProblemsController < ApplicationController
   # PATCH/PUT /problems/1 or /problems/1.json
   def update
     respond_to do |format|
+      @problem.user_id = current_user.id
       if @problem.update(problem_params)
         format.html { redirect_to @problem, notice: "Problem was successfully updated." }
         format.json { render :show, status: :ok, location: @problem }
