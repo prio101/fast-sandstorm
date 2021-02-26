@@ -1,6 +1,11 @@
-<h1>Editing Problem</h1>
+<div class="flex flex-row flex-1 justify-center">
+  <h1 class="flex text-2xl font-bold text-gray-700">Editing Problem</h1>
+</div>
 
 <%= render 'form', problem: @problem %>
 
-<%= link_to 'Show', @problem %> |
-<%= link_to 'Back', problems_path %>
+<div class="flex flex-1 flex-row justify-center">
+  <%= link_to 'Show', @problem, class: "btn-primary" %> 
+  <%= link_to 'Back', problems_path, class: "btn-alert" %>
+</div>
+

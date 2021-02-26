@@ -13,8 +13,8 @@
         Status: <%= @problem.status %>
       </div>
       <div class="flex flex-row flex-1 my-2">
-        <%= link_to 'Edit', edit_problem_path(@problem), class: "mx-1 px-2 py-2 bg-blue-400 text-white font-bold rounded"%>
-        <%= link_to 'Back', problems_path, class: "mx-1 px-2 py-2 bg-blue-400 text-white font-bold rounded" %>
+        <%= link_to 'Edit', edit_problem_path(@problem), class: "btn-primary"%>
+        <%= link_to 'Back', problems_path, class: "btn-alert" %>
       </div>
     </div>
   </div>

@@ -4,3 +4,11 @@
 
 /* Add any custom CSS here */
 @import "tailwindcss/utilities";
+
+.btn-primary{
+  @apply mx-1 bg-blue-400 font-bold text-white px-2 py-2 rounded
+}
+
+.btn-alert{
+  @apply mx-1 bg-red-400 font-bold text-white px-2 py-2 rounded
+}
