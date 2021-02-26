@@ -48,6 +48,11 @@ group :development do
   gem 'capistrano-rails', '~> 1.1.6'
   gem 'capistrano-rbenv', '~> 2.0', require: false
   gem 'capistrano-passenger', '~> 0.2.0'
+  gem 'rbnacl', '< 5.0', :require => false                                                                                                                                                                
+  gem 'rbnacl-libsodium', :require => false                                                                                                                                                               
+  gem 'bcrypt_pbkdf', '< 2.0', :require => false
+  gem 'ed25519', '~> 1.2'
+  
 end
 
 group :test do
