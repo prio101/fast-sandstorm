@@ -6,17 +6,17 @@
 @import "tailwindcss/utilities";
 
 .btn-primary{
-  @apply mx-1 bg-blue-400 font-bold text-white px-2 py-2 rounded
+  @apply mx-1 bg-blue-400 cursor-pointer font-bold text-white px-2 py-2 rounded
 }
 
 .btn-alert{
-  @apply mx-1 bg-red-400 font-bold text-white px-2 py-2 rounded
+  @apply mx-1 bg-red-400 cursor-pointer font-bold text-white px-2 py-2 rounded
 }
 
 .btn-success {
-  @apply mx-1 bg-green-400 font-bold text-white px-2 py-2 rounded
+  @apply mx-1 bg-green-400 cursor-pointer font-bold text-white px-2 py-2 rounded
 }
 
 .btn-info{
-  @apply mx-1 bg-indigo-400 font-bold text-white px-2 py-2 rounded
+  @apply mx-1 bg-indigo-400 cursor-pointer font-bold text-white px-2 py-2 rounded
 }

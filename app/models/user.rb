@@ -5,5 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :problems
 
-  validates :full_name, :email, presence: true
+  validates :email, presence: true
 end

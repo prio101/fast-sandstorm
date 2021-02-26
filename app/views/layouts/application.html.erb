@@ -11,8 +11,13 @@
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <div class="flex flex-row flex-1 justify-center">
+      <%= notice %>
+    </div>
+    <div class="flex flex-row flex-1 justify-center">
+      <%= alert %>
+    </div>
+    
     <%= yield %>
   </body>
 </html>
