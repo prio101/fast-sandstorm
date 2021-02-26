@@ -3,7 +3,4 @@ class Problem < ApplicationRecord
   enum status: [:ongoing, :completed, :postponed]
 
   validates :name, :site_name, :link, :status, presence: true
-
-
-
 end
