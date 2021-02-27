@@ -13,8 +13,8 @@ set :rbenv_ruby, '2.6.3'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/fast-sandstorm"
-# set :deploy_to, -> { "/path/to/app/#{fetch(:rails_env)}-#{fetch(:application)}" }
+
+set :deploy_to, -> { "/#{fetch(:application)}/#{fetch(:rails_env)}-#{fetch(:application)}" }
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
@@ -45,9 +45,9 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/syst
 
 set :passenger_restart_with_touch, true
 
-namespace :deploy do
-  desc "Description of task"
-  task :name_of_task do
-      # do something
-  end
-end
+# namespace :deploy do
+#   desc "Description of task"
+#   task :name_of_task do
+#       # do something
+#   end
+# end
