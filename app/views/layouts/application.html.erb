@@ -11,13 +11,19 @@
   </head>
 
   <body>
-    <div class="flex flex-row flex-1 justify-center">
+    <div class=" flex flex-row flex-1 justify-center bg-blue-400 text-white font-bold">
       <%= notice %>
     </div>
-    <div class="flex flex-row flex-1 justify-center">
+    <div class=" flex flex-row flex-1 justify-center bg-red-400 text-white font-bold">
       <%= alert %>
     </div>
-    
+    <% if user_signed_in? %>
+      <div class="flex flex-row flex-1 my-10 mx-10">
+        <div class="flex flex-1 flex-row-reverse">
+          <%= link_to('Log Out', destroy_user_session_path, method: :delete, class: "btn-alert") %>  
+        </div>
+      </div>
+    <% end %>
     <%= yield %>
   </body>
 </html>
