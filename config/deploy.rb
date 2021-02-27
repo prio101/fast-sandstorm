@@ -13,7 +13,7 @@ set :rbenv_ruby, '2.6.3'
 
 # Default deploy_to directory is /var/www/my_app_name
 
-set :deploy_to, -> { "/home/prio/#{fetch(:application)}/-#{fetch(:application)}" }
+set :deploy_to, -> { "/home/prio/#{fetch(:application)}/#{fetch(:application)}" }
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
