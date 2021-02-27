@@ -3,7 +3,7 @@ lock "~> 3.15.0"
 
 set :application, "fast-sandstorm"
 set :repo_url, "git@github.com:prio101/fast-sandstorm.git"
-set :deploy_user, "deploy"
+set :deploy_user, "prio"
 server '103.111.123.124', user: fetch(:deploy_user), roles: %w{app db web}
 
 
