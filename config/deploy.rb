@@ -3,8 +3,8 @@ lock "~> 3.15.0"
 
 set :application, "fast-sandstorm"
 set :repo_url, "git@github.com:prio101/fast-sandstorm.git"
-set :deploy_user, "prio"
-server '103.111.123.124', user: "prio", roles: %w{app db web}
+set :deploy_user, "deploy"
+server '103.111.123.124', user: fetch(:deploy_user), roles: %w{app db web}
 
 
 set :rbenv_type, :user # or :system, or :fullstaq (for Fullstaq Ruby), depends on your rbenv setup
