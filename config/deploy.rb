@@ -3,7 +3,6 @@ lock "~> 3.15.0"
 
 set :application, "fast-sandstorm"
 set :repo_url, "git@github.com:prio101/fast-sandstorm.git"
-set :deploy_user, "prio"
 server '103.111.123.124', user: "prio", roles: %w{app db web}
 
 
@@ -14,7 +13,7 @@ set :rbenv_ruby, '2.6.3'
 
 # Default deploy_to directory is /var/www/my_app_name
 
-set :deploy_to, -> { "/home/prio/#{fetch(:application)}" }
+set :deploy_to, -> { "/home/prio/#{fetch(:application)}/-#{fetch(:application)}" }
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
@@ -38,7 +37,7 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/syst
 # set :local_user, -> { `git config user.name`.chomp }
 
 # Default value for keep_releases is 5
-# set :keep_releases, 5
+set :keep_releases, 5
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
