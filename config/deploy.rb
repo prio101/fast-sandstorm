@@ -4,7 +4,7 @@ lock "~> 3.15.0"
 set :application, "fast-sandstorm"
 set :repo_url, "git@github.com:prio101/fast-sandstorm.git"
 set :deploy_user, "prio"
-server '103.111.123.124', user: fetch(:deploy_user), roles: %w{app db web}
+server '103.111.123.124', user: "prio", roles: %w{app db web}
 
 
 set :rbenv_type, :user # or :system, or :fullstaq (for Fullstaq Ruby), depends on your rbenv setup
@@ -14,7 +14,7 @@ set :rbenv_ruby, '2.6.3'
 
 # Default deploy_to directory is /var/www/my_app_name
 
-set :deploy_to, -> { "/home/#{fetch(:user)}/#{fetch(:application)}/-#{fetch(:application)}" }
+set :deploy_to, -> { "/home/prio/#{fetch(:application)}/-#{fetch(:application)}" }
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
