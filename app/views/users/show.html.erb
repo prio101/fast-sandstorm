@@ -1,4 +1,6 @@
-<p id="notice"><%= notice %></p>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<div class="flex flex-1 flex-row justify-center">
+  <h1 class="text-xl">Profile</h1>
+</div>
+
+<%= render 'form', user: @user %>
