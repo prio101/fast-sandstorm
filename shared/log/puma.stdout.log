@@ -1,0 +1,375 @@
+=== puma startup: 2021-03-13 08:35:01 +0000 ===
+[7465] * Starting control server on unix:///tmp/puma-status-1615624501207-7465
+[7465] - Worker 0 (pid: 7503) booted, phase: 0
+[7465] - Worker 1 (pid: 7505) booted, phase: 0
+[7465] - Gracefully shutting down workers...
+=== puma startup: 2021-03-13 08:58:24 +0000 ===
+=== puma startup: 2021-03-13 08:58:24 +0000 ===
+=== puma startup: 2021-03-13 08:58:25 +0000 ===
+=== puma startup: 2021-03-13 08:58:25 +0000 ===
+=== puma startup: 2021-03-13 12:57:35 +0000 ===
+[1699] * Starting control server on unix:///tmp/puma-status-1615640255587-1699
+[1737] Early termination of worker
+[1738] Early termination of worker
+[1744] Early termination of worker
+[1746] Early termination of worker
+[1750] Early termination of worker
+[1752] Early termination of worker
+[1756] Early termination of worker
+[1758] Early termination of worker
+[1763] Early termination of worker
+[1765] Early termination of worker
+[1770] Early termination of worker
+[1769] Early termination of worker
+[1775] Early termination of worker
+[1777] Early termination of worker
+[1784] Early termination of worker
+[1782] Early termination of worker
+[1788] Early termination of worker
+[1790] Early termination of worker
+[1794] Early termination of worker
+[1796] Early termination of worker
+[1800] Early termination of worker
+[1802] Early termination of worker
+[1807] Early termination of worker
+[1810] Early termination of worker
+[1813] Early termination of worker
+[1816] Early termination of worker
+[1819] Early termination of worker
+[1822] Early termination of worker
+[1825] Early termination of worker
+[1830] Early termination of worker
+[1833] Early termination of worker
+[1948] Early termination of worker
+[2362] Early termination of worker
+[2365] Early termination of worker
+[2368] Early termination of worker
+[2371] Early termination of worker
+[2375] Early termination of worker
+[2378] Early termination of worker
+[2382] Early termination of worker
+[2385] Early termination of worker
+[2388] Early termination of worker
+[2391] Early termination of worker
+[2394] Early termination of worker
+[2397] Early termination of worker
+[2400] Early termination of worker
+[2403] Early termination of worker
+[2409] Early termination of worker
+[2412] Early termination of worker
+[2416] Early termination of worker
+[2419] Early termination of worker
+[2429] Early termination of worker
+[2432] Early termination of worker
+[2435] Early termination of worker
+[2438] Early termination of worker
+[2441] Early termination of worker
+[2444] Early termination of worker
+[2448] Early termination of worker
+[2464] Early termination of worker
+[2482] Early termination of worker
+[2499] Early termination of worker
+[2516] Early termination of worker
+[2519] Early termination of worker
+[2522] Early termination of worker
+[2539] Early termination of worker
+[2556] Early termination of worker
+[2559] Early termination of worker
+[2562] Early termination of worker
+[2565] Early termination of worker
+[2568] Early termination of worker
+[2571] Early termination of worker
+[2574] Early termination of worker
+[2582] Early termination of worker
+[2585] Early termination of worker
+[2590] Early termination of worker
+[2593] Early termination of worker
+[2596] Early termination of worker
+[2599] Early termination of worker
+[2602] Early termination of worker
+[2606] Early termination of worker
+[2623] Early termination of worker
+[2626] Early termination of worker
+[2629] Early termination of worker
+[2632] Early termination of worker
+[2635] Early termination of worker
+[2638] Early termination of worker
+[2641] Early termination of worker
+[2644] Early termination of worker
+[2647] Early termination of worker
+[2650] Early termination of worker
+[2653] Early termination of worker
+[2656] Early termination of worker
+[2659] Early termination of worker
+[2662] Early termination of worker
+[2665] Early termination of worker
+[2668] Early termination of worker
+[2671] Early termination of worker
+[2674] Early termination of worker
+[2678] Early termination of worker
+[2681] Early termination of worker
+[2684] Early termination of worker
+[2687] Early termination of worker
+[2690] Early termination of worker
+[2708] Early termination of worker
+[2711] Early termination of worker
+[2714] Early termination of worker
+[2717] Early termination of worker
+[2720] Early termination of worker
+[2737] Early termination of worker
+[2740] Early termination of worker
+[2743] Early termination of worker
+[2746] Early termination of worker
+[2749] Early termination of worker
+[2752] Early termination of worker
+[2755] Early termination of worker
+[2758] Early termination of worker
+[2761] Early termination of worker
+[2766] Early termination of worker
+[2769] Early termination of worker
+[2772] Early termination of worker
+[2775] Early termination of worker
+[2778] Early termination of worker
+[2781] Early termination of worker
+[2784] Early termination of worker
+[2787] Early termination of worker
+[2790] Early termination of worker
+[2795] Early termination of worker
+[2798] Early termination of worker
+[2801] Early termination of worker
+[2804] Early termination of worker
+[2807] Early termination of worker
+[2810] Early termination of worker
+[2813] Early termination of worker
+[2816] Early termination of worker
+[2819] Early termination of worker
+[2823] Early termination of worker
+[2826] Early termination of worker
+[2829] Early termination of worker
+[2832] Early termination of worker
+[2835] Early termination of worker
+[2838] Early termination of worker
+[2841] Early termination of worker
+[2844] Early termination of worker
+[2847] Early termination of worker
+[2869] Early termination of worker
+[2872] Early termination of worker
+[2875] Early termination of worker
+[2878] Early termination of worker
+[2881] Early termination of worker
+[2884] Early termination of worker
+[2887] Early termination of worker
+[2890] Early termination of worker
+[2893] Early termination of worker
+[2897] Early termination of worker
+[2900] Early termination of worker
+[2903] Early termination of worker
+[2906] Early termination of worker
+[2923] Early termination of worker
+[2926] Early termination of worker
+[2929] Early termination of worker
+[2932] Early termination of worker
+[2935] Early termination of worker
+[2938] Early termination of worker
+[2941] Early termination of worker
+[2944] Early termination of worker
+[2947] Early termination of worker
+[2950] Early termination of worker
+[2953] Early termination of worker
+[2956] Early termination of worker
+[2959] Early termination of worker
+[2962] Early termination of worker
+[2965] Early termination of worker
+[2969] Early termination of worker
+[2972] Early termination of worker
+[2975] Early termination of worker
+[2978] Early termination of worker
+[2981] Early termination of worker
+[2984] Early termination of worker
+[2987] Early termination of worker
+[2990] Early termination of worker
+[2993] Early termination of worker
+[2996] Early termination of worker
+[2999] Early termination of worker
+[3002] Early termination of worker
+[3005] Early termination of worker
+[3008] Early termination of worker
+[3011] Early termination of worker
+[3014] Early termination of worker
+[3017] Early termination of worker
+[3020] Early termination of worker
+[3023] Early termination of worker
+[3027] Early termination of worker
+[3030] Early termination of worker
+[3034] Early termination of worker
+[3037] Early termination of worker
+[3040] Early termination of worker
+[3043] Early termination of worker
+[3046] Early termination of worker
+[3049] Early termination of worker
+[3052] Early termination of worker
+[3055] Early termination of worker
+[3058] Early termination of worker
+[3061] Early termination of worker
+[3064] Early termination of worker
+[3067] Early termination of worker
+[3070] Early termination of worker
+[3073] Early termination of worker
+[3076] Early termination of worker
+[3079] Early termination of worker
+[3082] Early termination of worker
+[3085] Early termination of worker
+[3088] Early termination of worker
+[3092] Early termination of worker
+[3095] Early termination of worker
+[3098] Early termination of worker
+[3101] Early termination of worker
+[3104] Early termination of worker
+[3107] Early termination of worker
+[3110] Early termination of worker
+[3113] Early termination of worker
+[3116] Early termination of worker
+[3119] Early termination of worker
+[3122] Early termination of worker
+[3125] Early termination of worker
+[3128] Early termination of worker
+[3133] Early termination of worker
+[3136] Early termination of worker
+[3170] Early termination of worker
+[3357] Early termination of worker
+[3668] Early termination of worker
+[3671] Early termination of worker
+[3675] Early termination of worker
+[3692] Early termination of worker
+[3695] Early termination of worker
+[3712] Early termination of worker
+[3729] Early termination of worker
+[3746] Early termination of worker
+[3749] Early termination of worker
+[3766] Early termination of worker
+[3783] Early termination of worker
+[3786] Early termination of worker
+[3803] Early termination of worker
+[3806] Early termination of worker
+[3809] Early termination of worker
+[3812] Early termination of worker
+[3815] Early termination of worker
+[3823] Early termination of worker
+[3826] Early termination of worker
+[3831] Early termination of worker
+[3834] Early termination of worker
+[3837] Early termination of worker
+[3841] Early termination of worker
+[3844] Early termination of worker
+[3847] Early termination of worker
+[3850] Early termination of worker
+[3853] Early termination of worker
+[3856] Early termination of worker
+[3859] Early termination of worker
+[3862] Early termination of worker
+[3865] Early termination of worker
+[3868] Early termination of worker
+[3871] Early termination of worker
+[3875] Early termination of worker
+[3878] Early termination of worker
+[3881] Early termination of worker
+[3884] Early termination of worker
+[3887] Early termination of worker
+[3890] Early termination of worker
+[3894] Early termination of worker
+[3897] Early termination of worker
+[3900] Early termination of worker
+[3903] Early termination of worker
+[3906] Early termination of worker
+[3909] Early termination of worker
+[3912] Early termination of worker
+[3915] Early termination of worker
+[3918] Early termination of worker
+[3921] Early termination of worker
+[3924] Early termination of worker
+[3927] Early termination of worker
+[3930] Early termination of worker
+[3933] Early termination of worker
+[3936] Early termination of worker
+[3939] Early termination of worker
+[3942] Early termination of worker
+[3946] Early termination of worker
+[3949] Early termination of worker
+[3952] Early termination of worker
+[3955] Early termination of worker
+[3958] Early termination of worker
+[3961] Early termination of worker
+[3964] Early termination of worker
+[3967] Early termination of worker
+[3970] Early termination of worker
+[3973] Early termination of worker
+[3976] Early termination of worker
+[3979] Early termination of worker
+[3982] Early termination of worker
+[3985] Early termination of worker
+[3988] Early termination of worker
+[3991] Early termination of worker
+[3994] Early termination of worker
+[3997] Early termination of worker
+[4000] Early termination of worker
+[4003] Early termination of worker
+[4007] Early termination of worker
+[4010] Early termination of worker
+[4013] Early termination of worker
+[4016] Early termination of worker
+[4019] Early termination of worker
+[4022] Early termination of worker
+[4025] Early termination of worker
+[4028] Early termination of worker
+[4031] Early termination of worker
+[4034] Early termination of worker
+[4037] Early termination of worker
+[4040] Early termination of worker
+[4043] Early termination of worker
+[4046] Early termination of worker
+[4049] Early termination of worker
+[4052] Early termination of worker
+[4056] Early termination of worker
+[4059] Early termination of worker
+[4062] Early termination of worker
+[4065] Early termination of worker
+[4068] Early termination of worker
+[4071] Early termination of worker
+[4074] Early termination of worker
+[4077] Early termination of worker
+[4080] Early termination of worker
+[4083] Early termination of worker
+[4086] Early termination of worker
+[4089] Early termination of worker
+[4092] Early termination of worker
+[4095] Early termination of worker
+[4111] Early termination of worker
+[1699] - Gracefully shutting down workers...
+[4114] Early termination of worker
+[1699] === puma shutdown: 2021-03-13 13:04:15 +0000 ===
+[1699] - Goodbye!
+=== puma startup: 2021-03-13 13:04:39 +0000 ===
+[4131] * Starting control server on unix:///tmp/puma-status-1615640679292-4131
+[4131] - Worker 1 (pid: 4170) booted, phase: 0
+[4131] - Worker 0 (pid: 4168) booted, phase: 0
+[4131] - Gracefully shutting down workers...
+[4131] === puma shutdown: 2021-03-13 13:43:33 +0000 ===
+[4131] - Goodbye!
+=== puma startup: 2021-03-13 13:43:35 +0000 ===
+[5184] * Starting control server on unix:///tmp/puma-status-1615643015109-5184
+[5184] - Worker 0 (pid: 5221) booted, phase: 0
+[5184] - Worker 1 (pid: 5223) booted, phase: 0
+[5184] - Gracefully shutting down workers...
+[5184] === puma shutdown: 2021-03-13 16:15:40 +0000 ===
+[5184] - Goodbye!
+=== puma startup: 2021-03-13 16:16:22 +0000 ===
+[7898] * Starting control server on unix:///tmp/puma-status-1615652182544-7898
+[7898] - Worker 1 (pid: 7937) booted, phase: 0
+[7898] - Worker 0 (pid: 7935) booted, phase: 0
+[7898] - Gracefully shutting down workers...
+[7898] === puma shutdown: 2021-03-13 16:29:55 +0000 ===
+[7898] - Goodbye!
+=== puma startup: 2021-03-13 16:36:40 +0000 ===
+[11168] * Starting control server on unix:///tmp/puma-status-1615653400333-11168
+[11168] - Worker 1 (pid: 11206) booted, phase: 0
+[11168] - Worker 0 (pid: 11205) booted, phase: 0
