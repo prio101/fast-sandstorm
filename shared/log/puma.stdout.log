@@ -373,3 +373,6 @@
 [11168] * Starting control server on unix:///tmp/puma-status-1615653400333-11168
 [11168] - Worker 1 (pid: 11206) booted, phase: 0
 [11168] - Worker 0 (pid: 11205) booted, phase: 0
+[11168] - Gracefully shutting down workers...
+[11168] === puma shutdown: 2021-03-13 17:29:09 +0000 ===
+[11168] - Goodbye!
