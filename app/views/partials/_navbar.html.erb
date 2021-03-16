@@ -17,8 +17,9 @@
     <div>
       <div class="flex">
         <%= link_to user_path(current_user.id) do %>
-          User Profile
-          <%#= image_tag current_user.avatar, class: "mx-4 obejct-contain w-10 h-10 rounded-full" %>
+          <% unless current_user.avatar.nil? %>
+            <%= image_tag current_user.avatar, class: "mx-4 obejct-contain w-10 h-10 rounded-full" %>
+          <% end %>  
         <% end %>
         
         
