@@ -3,6 +3,7 @@ lock "~> 3.15.0"
 
 set :application, "fast-sandstorm"
 set :repo_url, "git@github.com:prio101/fast-sandstorm.git"
+
 server '103.111.123.124', user: "prio", roles: %w{app db web}
 
 
@@ -13,7 +14,11 @@ set :rbenv_ruby, '2.6.3'
 
 # Default deploy_to directory is /var/www/my_app_name
 
+set :linked_files, %w{ config/database.yml }
+set :linked_dirs, %w{ bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 set :deploy_to, -> { "/home/prio/#{fetch(:application)}/#{fetch(:application)}" }
+
+
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
@@ -44,9 +49,11 @@ set :keep_releases, 5
 
 set :passenger_restart_with_touch, true
 
-# namespace :deploy do
-#   desc "Description of task"
-#   task :name_of_task do
-#       # do something
-#   end
-# end
+
+
+namespace :deploy do
+  desc "Description of task"
+  task :name_of_task do
+      # do something
+  end
+end
